@@ -23,3 +23,12 @@
   font-size: 3rem;
   width: 150px;
 }
+
+form .error-message {
+  color: red;
+  display: none;
+}
+form .error-message.show {
+  color: red;
+  display: block;
+}

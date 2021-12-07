@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./Header";
 import Logo from "./Logo";
-import Counter from "./counter/Counter";
+import Counter from "./counterClass/Counter";
+// import Form from "./Form/Form";
+
 // let data = [
 //   {
 //     fullName: "Matt Smith",
@@ -61,7 +63,7 @@ const App = function (props) {
           padding: "20px 20px",
         }}
       >
-        <Counter></Counter>
+        <Counter />
         {/* <div className="ui link cards">{printCards()}</div> */}
       </main>
     </>
