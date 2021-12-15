@@ -3,9 +3,10 @@ import Header from "./Header";
 import Logo from "./Logo";
 import Counter from "./counterClass/Counter";
 import Form from "./Form/Form";
-import { GlobalStateProvider, StateContext } from "./context/ClassProvider";
+import { GlobalStateProvider, StateContext } from "./context/FuncProvider";
 import A from "./context/A";
 import B from "./context/B";
+import C from "./context/C";
 
 let data = [
   {
@@ -77,7 +78,9 @@ const App = function (props) {
                 ></input>
                 <h1>name: {context.state.name} </h1>
                 <A>
-                  <B></B>
+                  <B>
+                    <C></C>
+                  </B>
                 </A>
               </main>
             </>
